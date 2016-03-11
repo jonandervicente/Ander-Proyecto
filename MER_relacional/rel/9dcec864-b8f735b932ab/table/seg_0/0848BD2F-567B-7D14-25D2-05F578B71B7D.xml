@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0848BD2F-567B-7D14-25D2-05F578B71B7D" name="Viaje">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>6FDC82FD-FB23-63B7-9A57-03D079D1E985</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_viaje" id="B418F6CF-A858-4135-94A9-D05E35258E5F">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>EFADAA51-68FA-5465-EE68-D0A65AE4C3A0</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="44461EB6-7D94-A2EC-B9A7-648689CC5FC9">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>7431ECA4-E3DE-C9A6-47AB-25A8B5FF1BDF</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin" id="32406F2F-EE58-5664-AFD9-27916C1A5A8C">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>EF4824E4-8424-69FA-E868-53A9DA7EA11E</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="6B9400D2-6410-2A57-3CBD-19B3AC8263C3">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>78BD4883-C60A-26AB-5AD4-B753B4CA9221</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_albaran" id="59817C93-0C2F-2019-5547-272D228BCDB6">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>B85932C9-8C6D-922F-56A9-33D044070BC0</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parte_id_parte" id="9CB3ACFB-E843-B3D5-26C9-C3910FD1ED81">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>4A99EC8F-B45A-3E32-DE50-9898487ACF2C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EBB3E1F-BB25-2D5D-F6E7-558D7EC9AD50" referredColumn="C0AC77C9-FD71-C794-F522-B320B52CFEE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52FF8A6E-BC82-5E6F-C06C-BB6D203550AD" name="Viaje_PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>879ED05C-1675-90F4-C52E-1C73DDA10F14</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B418F6CF-A858-4135-94A9-D05E35258E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CCD005B-CB38-AA58-FA44-381F1EFC6303" name="Viaje_Parte_FK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>CE78F419-AF46-2B78-DBA7-A2128C97056A</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CB3ACFB-E843-B3D5-26C9-C3910FD1ED81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

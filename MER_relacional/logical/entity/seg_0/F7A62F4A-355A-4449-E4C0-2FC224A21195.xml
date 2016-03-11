@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7A62F4A-355A-4449-E4C0-2FC224A21195" name="Centro">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:43:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_centro" id="79D09D65-B22A-9651-EA5F-61FB963DF191">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:44:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A11D6467-3807-6117-0B21-AB102CC54CDF">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:49:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tlf_fijo" id="4CC5A0E3-41B7-45E0-1AE4-6FBBBAF599E1">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:49:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cp" id="B3864B84-C0A3-CE77-EEAB-64F881EDD6A2">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:50:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provincia" id="295A952A-01FA-EEE9-CC08-C4B403E07C06">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:50:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="2765A211-FA7F-9948-9AE3-951B6933A32A">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:51:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="B49B1CEC-B5A1-5090-8C2C-C7198DE205DD">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:51:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="623CE713-E309-2A4E-6858-C518F8023C10">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:51:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5DF6676-A721-B593-43EE-1D15DE3E254E" name="Centro PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 11:48:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79D09D65-B22A-9651-EA5F-61FB963DF191</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E188CA9-41CE-B466-85A2-D78294AEC196" name="Parte">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>3BBD719D-AD33-D7BB-C45D-F87A21B7BA13</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parte" id="C0AC77C9-FD71-C794-F522-B320B52CFEE4">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D4E6284A-BB5A-C2C0-65F6-DEADE946E309</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="D53E401C-4ABA-0A3C-492D-FA801E25B817">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>FC0D5933-CE6C-5EFD-B671-D719141E0DFC</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_inicio" id="F886DF9D-0144-1B6B-219F-0D2E5F7BC883">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>4B80EBA7-BB87-F387-E372-D8FB1CFF5EE5</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,10,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="km_fin" id="5998E4B2-9599-AA84-698C-8CD78074BA19">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D1DF36EB-61ED-99A5-D71F-7199DB33AA8C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,10,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gasoil" id="7144A918-BB38-DC6A-CE9A-89E9353F4284">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>960B4B04-1953-41FB-019A-486322898174</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autopista" id="CF345A22-42E6-621C-C9AA-C14EA3015C29">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>6762893B-9E90-B753-4369-6F232BD4724C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dieta" id="4FF14F82-82D7-6CCB-4036-C1E185350D57">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>4F03AA59-655A-0425-FB2F-8F0E9CCB2442</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otros" id="6C8A2AAF-4C84-C5F8-1734-6568F73C8BD9">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>FAEC7ACA-0CE4-911A-6AA7-A7575496490C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incidencias" id="27CFB112-D995-4A5F-9902-527C827C9522">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D285DDB8-C9AF-5A48-00E4-BA8E44EAC2C6</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logistica_dni" id="F42CD5A2-AEF2-7F65-456B-E4FD924BDAAC">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>1197426B-2E4E-48F3-D1EB-DFD3629240EC</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9145AF0-9FB0-99E0-9179-CA85727FF65E" referredColumn="32C196E6-80B8-8160-BD18-568478B681EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17DE7D7C-FAFF-1FB0-0B60-0A0C49A33B53" name="Parte_PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>B0B5CA3A-622A-82CA-5631-A0DF6F09966C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0AC77C9-FD71-C794-F522-B320B52CFEE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0008A23B-50B8-0440-0A44-8AB388091A16" name="Parte_Logistica_FK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>E073EC21-C768-5E66-BB97-90F94B65BEDE</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42CD5A2-AEF2-7F65-456B-E4FD924BDAAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

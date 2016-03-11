@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F047C07-077A-BC03-D108-6FCD4248359B" name="Cerrado">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>BBAD1737-A0EA-E157-FB0C-44742441F04E</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parte" id="0D6D1F2E-E96B-2263-64C9-1C7940B84D36">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D4E6284A-BB5A-C2C0-65F6-DEADE946E309</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB455D24-8EBC-2240-690A-F1A6BAB6405A" referredColumn="C0AC77C9-FD71-C794-F522-B320B52CFEE4"/>
+</associations>
+</Column>
+<Column name="validacion" id="21DB8103-5C17-8D4F-DFA4-9F71EAC00413">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>122B39FD-2CED-4C6B-13F8-CB5CD164F94F</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="6D4A0B0E-DDD5-5781-9611-83170FB4DD08">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D135A21D-ED94-4EAA-5C09-D9F23FCE9C45</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Administracion_dni" id="574903FF-5116-3054-5B1A-66EFD2904018">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>FED229F6-372C-A31D-0B93-E9D0BFC38568</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90D81AAC-331A-CB1A-7400-B40C06A9B801" referredColumn="79549255-4056-2985-29F9-F0D782D6BA2C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAEFC29E-A09B-BDC0-12E6-DF964BD57CFA" name="Cerrado_PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>B0B5CA3A-622A-82CA-5631-A0DF6F09966C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D6D1F2E-E96B-2263-64C9-1C7940B84D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA458C50-0B7A-68DA-85B9-AC0FD97154BD" name="Cerrado_Parte_FK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>8ED3A57E-3BB4-5544-852C-2224C90DD897</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D6D1F2E-E96B-2263-64C9-1C7940B84D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9915E71-7F73-1FA3-AC8F-1F7B0EC890A9" name="Cerrado_Administracion_FK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>9B7AE5D7-D713-1B5B-A032-5FDEEA2F9EBD</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="574903FF-5116-3054-5B1A-66EFD2904018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

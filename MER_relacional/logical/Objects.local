@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1A84F894-45C4-138B-C523-0121B7CA8198" name="Logistica" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3BBD719D-AD33-D7BB-C45D-F87A21B7BA13" name="Parte" seqName="seg_0"/>
+   <object objectType="Entity" objectID="442BBC66-1B9C-CE81-3381-88EDBA058A5A" name="Administracion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FDC82FD-FB23-63B7-9A57-03D079D1E985" name="Viaje" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B0D8DD0B-AD85-8F0B-95F3-B189BCFE9EB7" name="Abierto" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BBAD1737-A0EA-E157-FB0C-44742441F04E" name="Cerrado" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EB028242-E742-A329-4E62-655E3C7FC09F" name="Trabajador" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F7A62F4A-355A-4449-E4C0-2FC224A21195" name="Centro" seqName="seg_0"/>
+   <object objectType="Relation" objectID="045FD1CE-5BB4-77C4-E9EA-B41776A2C69F" name="modifica" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9B7AE5D7-D713-1B5B-A032-5FDEEA2F9EBD" name="valida" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BC674BA1-AC1E-18AC-CD99-C0667A7337ED" name="trabaja" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CE78F419-AF46-2B78-DBA7-A2128C97056A" name="tiene" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E073EC21-C768-5E66-BB97-90F94B65BEDE" name="crea" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="04E55BE1-8907-708C-5660-C006A33DB905" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="31188ADA-8747-E120-2FAF-5E106E389A96" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="8ED3A57E-3BB4-5544-852C-2224C90DD897" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="BAE80E43-C994-8040-D933-5D2F4D363FB5" name="Hierarchy_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

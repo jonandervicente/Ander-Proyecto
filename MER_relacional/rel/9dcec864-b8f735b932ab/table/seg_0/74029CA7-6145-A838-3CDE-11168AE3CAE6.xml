@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74029CA7-6145-A838-3CDE-11168AE3CAE6" name="modifica">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Administracion_dni" id="20941F92-B9C9-3269-87D5-6AED6C4F70CB">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D80B04B1-15B4-EA94-F3CB-5CA0CC0988E8" referredColumn="79549255-4056-2985-29F9-F0D782D6BA2C"/>
+</associations>
+</Column>
+<Column name="Parte_id_parte" id="CB204B30-2281-205E-2742-7BFD3CC1EC7E">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD0C9E2C-38BF-D7F3-22E9-5A1669CC7DE0" referredColumn="C0AC77C9-FD71-C794-F522-B320B52CFEE4"/>
+</associations>
+</Column>
+<Column name="fecha_modif" id="D62AAF34-F4BE-A8A9-1393-7F6E3BDB08A6">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>74BB7B27-97E7-7DFD-7CC8-797EA2817166</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5B43E97-7BDC-0544-13B0-C06E336A3CD8" name="modifica_PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20941F92-B9C9-3269-87D5-6AED6C4F70CB"/>
+<colUsage columnID="CB204B30-2281-205E-2742-7BFD3CC1EC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6939B994-7257-C314-95F2-1707B89E1CE0" name="FK_ASS_6">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>045FD1CE-5BB4-77C4-E9EA-B41776A2C69F</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20941F92-B9C9-3269-87D5-6AED6C4F70CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFEDCA44-C2AD-8741-56A3-AB7616028E52" name="FK_ASS_7">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:25 UTC</createdTime>
+<generatorID>045FD1CE-5BB4-77C4-E9EA-B41776A2C69F</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB204B30-2281-205E-2742-7BFD3CC1EC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

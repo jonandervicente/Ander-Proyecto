@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trabaja" directorySegmentName="seg_0" id="BC674BA1-AC1E-18AC-CD99-C0667A7337ED">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:26:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<engineerTo>
+<item key="9DCEC864-E5B7-7611-77A1-B8F735B932AB" value="true"/>
+</engineerTo>
+<sourcePk>C5DF6676-A721-B593-43EE-1D15DE3E254E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7A62F4A-355A-4449-E4C0-2FC224A21195</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB028242-E742-A329-4E62-655E3C7FC09F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

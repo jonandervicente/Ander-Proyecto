@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B5C3CEE-C163-BF33-4797-74314D5138BC" name="Abierto">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>B0D8DD0B-AD85-8F0B-95F3-B189BCFE9EB7</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parte" id="33ECCC17-44DF-2464-6A3B-F170693A38AA">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>D4E6284A-BB5A-C2C0-65F6-DEADE946E309</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BD0CE5C-A350-48B0-7550-C4AEED389834" referredColumn="C0AC77C9-FD71-C794-F522-B320B52CFEE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4862C8A7-8FEE-D62B-317C-BD2C251D9D80" name="Abierto_PK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>B0B5CA3A-622A-82CA-5631-A0DF6F09966C</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33ECCC17-44DF-2464-6A3B-F170693A38AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="605E396E-C700-74EF-8F5D-B1C1660649A9" name="Abierto_Parte_FK">
+<createdBy>1GPROG11</createdBy>
+<createdTime>2016-03-08 12:37:24 UTC</createdTime>
+<generatorID>31188ADA-8747-E120-2FAF-5E106E389A96</generatorID>
+<ownerDesignName>MER_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33ECCC17-44DF-2464-6A3B-F170693A38AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
